@@ -1,0 +1,14 @@
+# YAML Configuration for seqClass.py
+
+sequence_settings:
+  default_sequence: "AGTG"
+  motif_search: true
+  case_sensitive: false
+
+output_settings:
+  verbose: true
+  log_results: false
+
+motif_options:
+  enable_motif_search: true
+  default_motif: "TG"
