@@ -1,7 +1,3 @@
-# Create README.md
-
-cat <<EOF > README.md
-
 # Sequence Classifier (\`seqClass.py\`)
 This script classifies a given sequence as **DNA or RNA** and optionally searches for **motifs**.
 
