@@ -5,7 +5,7 @@ import re
 from argparse import ArgumentParser
 
 # Initialize argument parser
-parser = ArgumentParser(description='Classify a sequence as DNA or RNA')
+parser = ArgumentParser(description='Classify a sequence as either DNA or RNA')
 parser.add_argument("-s", "--seq", type=str, required=True, help="Input sequence")
 
 # If no arguments are provided, print help message and exit
