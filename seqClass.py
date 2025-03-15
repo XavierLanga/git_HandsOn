@@ -39,7 +39,6 @@ if args.motif:
     print(f'Motif search enabled: looking for motif "{args.motif}" in sequence "{args.seq}"... ', end='')
 
     if re.search(args.motif, args.seq):
-        print("Pattern successfully located!")
+        print("Motif successfully found in sequence!")  
     else:
         print("NOT FOUND")
-
